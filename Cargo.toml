@@ -1,0 +1,11 @@
+[package]
+name = "unlock_wutheringwaves_fps"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = "0.31.0"
+anyhow = "1.0"
+tokio ={ version ="1.37.0", features = ["full"] }
+serde_json = "1.0.117"
+winapi = { version = "0.3.9", features = ["winuser", "winbase", "commdlg"] }
